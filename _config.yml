@@ -5,6 +5,10 @@ baseurl: ""
 
 # GitHub Pages compatible settings
 remote_theme: riggraz/no-style-please
+
+theme_config:
+  appearance: "light" # can be "light", "dark" or "auto"
+  
 plugins:
   - jekyll-remote-theme
   - jekyll-feed
