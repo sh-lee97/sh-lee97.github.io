@@ -1,10 +1,8 @@
 title: Your Name
 description: minimal site
 url: https://yourname.github.io
-theme: no-style-please
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+remote_theme: riggraz/no-style-please
+plugins: [jekyll-remote-theme, jekyll-feed, jekyll-seo-tag]plugins:
 
 # Minimal theme config (optional)
 no_style_please:
