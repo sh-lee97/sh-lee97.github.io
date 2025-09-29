@@ -1,0 +1,12 @@
+title: Your Name
+description: minimal site
+url: https://yourname.github.io
+theme: no-style-please
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minimal theme config (optional)
+no_style_please:
+  title: Your Name
+  tagline: researcher / audio / ML
