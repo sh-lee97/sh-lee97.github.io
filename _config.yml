@@ -1,8 +1,18 @@
 title: Your Name
 description: minimal site
 url: https://sh-lee97.github.io
+baseurl: ""
+
+# GitHub Pages compatible settings
 remote_theme: riggraz/no-style-please
-plugins: [jekyll-remote-theme, jekyll-feed, jekyll-seo-tag]
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
 
 # Minimal theme config (optional)
 no_style_please:
