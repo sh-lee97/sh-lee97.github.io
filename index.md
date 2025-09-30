@@ -17,10 +17,14 @@ title: Sungho Lee
 ## Publications
 
 ### Journals
-- **Reverse Engineering of Music Mixing Graphs with Differentiable Processors and Iterative Pruning**  
+
+
+- <span class="highlight">
+  **Reverse Engineering of Music Mixing Graphs with Differentiable Processors and Iterative Pruning**  
   *JAES*, 2025  
   <ins>Sungho Lee</ins>, Marco A. Martínez-Ramírez, Wei-Hsiang Liao, Stefan Uhlich, Giorgio Fabbro, Kyogu Lee, Yuki Mitsufuji  
   [JAES](https://aes2.org/publications/elibrary-page/?id=22917) · [arXiv](https://arxiv.org/abs/2509.15948)
+  </span>
 
 - **Differentiable Artificial Reverberation**  
   *IEEE/ACM TASLP*, 2022  
