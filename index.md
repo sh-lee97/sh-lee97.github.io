@@ -16,7 +16,8 @@ Email: sh-lee at snu.ac.kr
 </div>
 
 ### Research interests
-- **Topic:** inverse problems for audio - room acoustics and audio effects  
+- **Topic:** inverse problems for audio
+- **Domain:** room acoustics and audio effects  
 - **Method:** differentiable signal processing + generative models  
 - **Application:** audio post-production
 
