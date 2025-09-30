@@ -22,77 +22,77 @@ title: Sungho Lee
 
 ### Journals
 
-- <span class="highlight"> **Reverse Engineering of Music Mixing Graphs with Differentiable Processors and Iterative Pruning** </span>
-  *JAES*, 2025  
+- <span class="highlight"> **Reverse Engineering of Music Mixing Graphs with Differentiable Processors and Iterative Pruning** </span>  
   <ins>Sungho Lee</ins>, Marco A. Martínez-Ramírez, Wei-Hsiang Liao, Stefan Uhlich, Giorgio Fabbro, Kyogu Lee, Yuki Mitsufuji  
+  *JAES*, 2025  
   [JAES](https://aes2.org/publications/elibrary-page/?id=22917) · [arXiv](https://arxiv.org/abs/2509.15948)
   
 - **Differentiable Artificial Reverberation**  
-  *IEEE/ACM TASLP*, 2022  
   <ins>Sungho Lee</ins>, Hyeong-Seok Choi, Kyogu Lee  
+  *IEEE/ACM TASLP*, 2022  
   [demo](https://sh-lee97.github.io/DAR-samples/) · [arXiv](https://arxiv.org/abs/2105.13940)
 
 ### Conferences
-- **Few-step Adversarial Schrödinger Bridge for Generative Speech Enhancement**  
-  *Interspeech*, 2025 (Best student paper award nominee)  
+- **Few-step Adversarial Schrödinger Bridge for Generative Speech Enhancement**
   Seungu Han, <ins>Sungho Lee</ins>, Juheon Lee, Kyogu Lee  
+  *Interspeech*, 2025 (Best student paper award nominee)  
   [arXiv](https://arxiv.org/abs/2502.08939)
 
 - **TokenSynth: A Token-based Neural Synthesizer for Instrument Cloning and Text-to-Instrument**  
-  *ICASSP*, 2025  
   Kyungsu Kim, Junghyun Koo, <ins>Sungho Lee</ins>, Haesun Jeong, Kyogu Lee  
+  *ICASSP*, 2025  
   [demo](https://kyungsukim.notion.site/A-Token-based-Neural-Synthesizer-for-Instrument-Cloning-and-Text-to-Instrument-2c4f5c0850dc4006971b33ad0e580842?pvs=4) · [arXiv](https://arxiv.org/abs/2502.08939) · [code](https://github.com/KyungsuKim42/tokensynth)
 
 - **Searching for Music Mixing Graphs: A Pruning Approach**  
-  *DAFx*, 2024 (Best show & tell award)  
   <ins>Sungho Lee</ins>, Marco A. Martínez-Ramírez, Wei-Hsiang Liao, Stefan Uhlich, Giorgio Fabbro, Kyogu Lee, Yuki Mitsufuji  
+  *DAFx*, 2024 (Best show & tell award)  
   [demo](https://sh-lee97.github.io/grafx-prune/) · [arXiv](https://arxiv.org/abs/2406.01049) · [code](https://github.com/sh-lee97/grafx-prune/tree/main)
 
 - **Emosical: An Emotion-Annotated Musical Theatre Dataset**  
-  *EMNLP Findings*, 2024  
   Hayoon Kim, Ahyeon Choi, <ins>Sungho Lee</ins>, Hyunjin Jung, Kyogu Lee  
+  *EMNLP Findings*, 2024  
   [ACL](https://aclanthology.org/2024.findings-emnlp.241/) · [code](https://github.com/gillosae/emosical)
 
 - **Yet Another Generative Model for Room Impulse Response Estimation**  
-  *WASPAA*, 2023  
   <ins>Sungho Lee</ins>, Hyeong-Seok Choi, Kyogu Lee  
+  *WASPAA*, 2023  
   [demo](https://sh-lee97.github.io/neural-ir-est/) · [arXiv](https://arxiv.org/abs/2311.02581)
 
 - **Blind Estimation of Audio Processing Graph**  
-  *ICASSP*, 2023  
   <ins>Sungho Lee</ins>, Jaehyun Park, Seungryeol Paik, Kyogu Lee  
+  *ICASSP*, 2023  
   [demo](https://sh-lee97.github.io/apg/) · [arXiv](https://arxiv.org/abs/2303.08610)
 
 - **Exploiting Time-Frequency Conformers for Music Audio Enhancement**  
-  *ACM MM*, 2023  
   Yunkee Chae, Junghyun Koo, <ins>Sungho Lee</ins>, Kyogu Lee  
+  *ACM MM*, 2023  
   [summary](https://agreeable-diplodocus-5ca.notion.site/Exploiting-Time-Frequency-Conformers-For-General-Music-Enhancement-1d0f3b851174459294c3de1068eb6ca8) · [arXiv](https://arxiv.org/abs/2308.12599) · [code](https://github.com/yoongi43/music_audio_enhancement_conformer)
 
 - **Global HRTF Interpolation via Learned Affine Transformation of Hyper-Conditioned Features**  
-  *ICASSP*, 2023  
   Jin Woo Lee, <ins>Sungho Lee</ins>, Kyogu Lee  
+  *ICASSP*, 2023  
   [summary](https://cosmic-pillow-86e.notion.site/Global-HRTF-Interpolation-via-Learned-Affine-Transformation-of-Hyper-conditioned-Features-d5a5c7fac8a54b59871b799a2642939f) · [arXiv](https://arxiv.org/abs/2204.02637) · [code](https://github.com/jin-woo-lee/hrtf-interpolation)
 
 ### Workshops & demos
 - **GRAFX: An Open-Source Library for Audio Processing Graphs in PyTorch**  
-  *DAFx demo*, 2024  
   <ins>Sungho Lee</ins>, Marco A. Martínez-Ramírez, Wei-Hsiang Liao, Stefan Uhlich, Giorgio Fabbro, Kyogu Lee, Yuki Mitsufuji  
+  *DAFx demo*, 2024  
   [arXiv](https://www.arxiv.org/abs/2408.03204) · [code](https://github.com/sh-lee97/grafx) · [docs](https://sh-lee97.github.io/grafx/)
 
 - **Wavespace: A Highly Explorable Wavetable Generator**  
-  *ISMIR LBD*, 2024  
   Hazounne Lee, Kihong Kim, <ins>Sungho Lee</ins>, Kyogu Lee  
+  *ISMIR LBD*, 2024  
   [arXiv](https://arxiv.org/abs/2407.19862) · [code (model)](https://github.com/hazounne/wavespace) · [code (VST)](https://github.com/kimgihong2510/WavespaceImplementation)
 
 - **Beat-Aligned Spectrogram-to-Sequence Generation of Rhythm-Game Charts**  
-  *ISMIR LBD*, 2023  
   Jayeon Yi, <ins>Sungho Lee</ins>, Kyogu Lee  
+  *ISMIR LBD*, 2023  
   [demo](https://stet-stet.github.io/goct/) · [arXiv](https://arxiv.org/abs/2311.13687) · [code](https://github.com/stet-stet/goct_ismir2023)
 
 ### Patents
 - **Multi-modal Guitar Performance Transcription Apparatus and Method**  
-  *Domestic patent*, 2025  
   Kyogu Lee, <ins>Sungho Lee</ins>, Chang-Bin Jeon, Jiwon Kim, Jongho Choi, Hayoon Kim, Yong-Ho Kim, Jang-Woo Lee  
+  *Domestic patent*, 2025  
   [DOI](https://doi.org/10.8080/1020220190572)
 
 ### Preprints / under review
