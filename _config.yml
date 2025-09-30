@@ -1,4 +1,4 @@
-title: Your Name
+title: Sungho Lee
 description: minimal site
 url: https://sh-lee97.github.io
 baseurl: ""
@@ -20,5 +20,8 @@ highlighter: rouge
 
 # Minimal theme config (optional)
 no_style_please:
-  title: Your Name
+  title: Sungho Lee
   tagline: researcher / audio / ML
+
+no_style_please:
+  custom_css: assets/css/custom.css
