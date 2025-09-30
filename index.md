@@ -126,7 +126,12 @@ Email: sh-lee at snu.ac.kr
 - **Supertone**  
   Research intern, Spring 2023   
   *Impulse response estimation for audio post-production.*  
-  Product: ([**Supertone Air**](https://www.supertone.ai/air))
+  Product: [**Supertone Air**](https://www.supertone.ai/air)
+
+<p align="center">
+<img src="/air.jpeg" alt="Supertone Air" width="500">
+</p>
+
 
 **Funded projects**
 - **Supertone**  
