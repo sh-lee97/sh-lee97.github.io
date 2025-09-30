@@ -128,11 +128,6 @@ Email: sh-lee at snu.ac.kr
   *Impulse response estimation for audio post-production.*  
   Product: [**Supertone Air**](https://www.supertone.ai/air)
 
-<p align="center">
-<img src="/air.jpeg" alt="Supertone Air" width="600">
-</p>
-
-
 **Funded projects**
 - **Supertone**  
   Research project lead, 2024  
