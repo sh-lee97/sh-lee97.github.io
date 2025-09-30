@@ -10,7 +10,7 @@ title: Sungho Lee
 
 <div align="center" markdown="1">
 Ph.D. Candidate @ [Music and Audio Research Group](https://marg.snu.ac.kr/)  
-Department of Intelligence and Information, Seoul National University  
+Seoul National University  
 Email: sh-lee at snu.ac.kr  
 [Scholar](https://scholar.google.com/citations?hl=en&user=8yMXL5AAAAAJ&view_op=list_works) · [GitHub](https://github.com/sh-lee97) · [LinkedIn](https://www.linkedin.com/in/sungho-lee-061546219/)  
 </div>
