@@ -1,3 +1,9 @@
 .main {
   max-width: 900px; /* or whatever you prefer */
 }
+
+.highlight {
+  background-color: #fff59d; /* soft yellow */
+  padding: 0 2px;
+  border-radius: 3px;
+}
