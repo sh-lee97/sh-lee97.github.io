@@ -101,9 +101,6 @@ title: Sungho Lee
   <ins>Sungho Lee</ins>, Matteo Scerbo, Seungu Han, Minjun Choi, Kyogu Lee, Enzo De Sena  
   [arXiv](https://arxiv.org/abs/2509.15946)
 
-- **LipCoder: Voice-Enabled Coding Toolkit**  
-  Hayoon Kim, <ins>Sungho Lee</ins>, Juwhi Kim, Bongwon Suh, Kyogu Lee
-
 - **Rethinking Speech Representation Aggregation for Speech Enhancement with a Phonetic Mutual Information Perspective**  
   Seungu Han, <ins>Sungho Lee</ins>, Kyogu Lee
 
