@@ -27,7 +27,7 @@ title: Sungho Lee
   *JAES*, 2025  
   [JAES](https://aes2.org/publications/elibrary-page/?id=22917) · [arXiv](https://arxiv.org/abs/2509.15948)
   
-- **Differentiable Artificial Reverberation**  
+- <span class="highlight"> **Differentiable Artificial Reverberation** </span>  
   <ins>Sungho Lee</ins>, Hyeong-Seok Choi, Kyogu Lee  
   *IEEE/ACM TASLP*, 2022  
   [demo](https://sh-lee97.github.io/DAR-samples/) · [arXiv](https://arxiv.org/abs/2105.13940)
@@ -43,7 +43,7 @@ title: Sungho Lee
   *ICASSP*, 2025  
   [demo](https://kyungsukim.notion.site/A-Token-based-Neural-Synthesizer-for-Instrument-Cloning-and-Text-to-Instrument-2c4f5c0850dc4006971b33ad0e580842?pvs=4) · [arXiv](https://arxiv.org/abs/2502.08939) · [code](https://github.com/KyungsuKim42/tokensynth)
 
-- **Searching for Music Mixing Graphs: A Pruning Approach**  
+- <span class="highlight"> **Searching for Music Mixing Graphs: A Pruning Approach** </span>  
   <ins>Sungho Lee</ins>, Marco A. Martínez-Ramírez, Wei-Hsiang Liao, Stefan Uhlich, Giorgio Fabbro, Kyogu Lee, Yuki Mitsufuji  
   *DAFx*, 2024 (Best show & tell award)  
   [demo](https://sh-lee97.github.io/grafx-prune/) · [arXiv](https://arxiv.org/abs/2406.01049) · [code](https://github.com/sh-lee97/grafx-prune/tree/main)
@@ -53,12 +53,12 @@ title: Sungho Lee
   *EMNLP Findings*, 2024  
   [ACL](https://aclanthology.org/2024.findings-emnlp.241/) · [code](https://github.com/gillosae/emosical)
 
-- **Yet Another Generative Model for Room Impulse Response Estimation**  
+- <span class="highlight"> **Yet Another Generative Model for Room Impulse Response Estimation** </span>  
   <ins>Sungho Lee</ins>, Hyeong-Seok Choi, Kyogu Lee  
   *WASPAA*, 2023  
   [demo](https://sh-lee97.github.io/neural-ir-est/) · [arXiv](https://arxiv.org/abs/2311.02581)
 
-- **Blind Estimation of Audio Processing Graph**  
+- <span class="highlight"> **Blind Estimation of Audio Processing Graph** </span>   
   <ins>Sungho Lee</ins>, Jaehyun Park, Seungryeol Paik, Kyogu Lee  
   *ICASSP*, 2023  
   [demo](https://sh-lee97.github.io/apg/) · [arXiv](https://arxiv.org/abs/2303.08610)
@@ -74,7 +74,7 @@ title: Sungho Lee
   [summary](https://cosmic-pillow-86e.notion.site/Global-HRTF-Interpolation-via-Learned-Affine-Transformation-of-Hyper-conditioned-Features-d5a5c7fac8a54b59871b799a2642939f) · [arXiv](https://arxiv.org/abs/2204.02637) · [code](https://github.com/jin-woo-lee/hrtf-interpolation)
 
 ### Workshops & demos
-- **GRAFX: An Open-Source Library for Audio Processing Graphs in PyTorch**  
+- <span class="highlight"> **GRAFX: An Open-Source Library for Audio Processing Graphs in PyTorch** </span>  
   <ins>Sungho Lee</ins>, Marco A. Martínez-Ramírez, Wei-Hsiang Liao, Stefan Uhlich, Giorgio Fabbro, Kyogu Lee, Yuki Mitsufuji  
   *DAFx demo*, 2024  
   [arXiv](https://www.arxiv.org/abs/2408.03204) · [code](https://github.com/sh-lee97/grafx) · [docs](https://sh-lee97.github.io/grafx/)
@@ -96,7 +96,7 @@ title: Sungho Lee
   [DOI](https://doi.org/10.8080/1020220190572)
 
 ### Preprints / under review
-- **Differentiable Acoustic Radiance Transfer**  
+- <span class="highlight"> **Differentiable Acoustic Radiance Transfer** </span>  
   <ins>Sungho Lee</ins>, Matteo Scerbo, Seungu Han, Minjun Choi, Kyogu Lee, Enzo De Sena  
   [arXiv](https://arxiv.org/abs/2509.15946)
 
@@ -124,7 +124,7 @@ title: Sungho Lee
 - **Supertone**  
   Research intern, Spring 2023   
   *Impulse response estimation for audio post-production.*  
-  Product: Supertone Air ([page](https://www.supertone.ai/air))
+  Product: ([**Supertone Air**](https://www.supertone.ai/air))
 
 **Funded projects**
 - **Supertone**  
