@@ -5,7 +5,7 @@ title: Sungho Lee
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 <p align="center">
-<img src="/pic.JPG" alt="Sungho Lee" width="450">
+<img src="/pic.JPG" alt="Sungho Lee" width="500">
 </p>
 
 <div align="center" markdown="1">
