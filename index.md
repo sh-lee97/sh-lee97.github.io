@@ -15,8 +15,6 @@ Email: sh-lee at snu.ac.kr
 [Scholar](https://scholar.google.com/citations?hl=en&user=8yMXL5AAAAAJ&view_op=list_works) · [GitHub](https://github.com/sh-lee97) · [LinkedIn](https://www.linkedin.com/in/sungho-lee-061546219/)  
 </div>
 
----
-
 ### Research interests
 - **Topic:** inverse problems for audio, with a focus on room acoustics and audio effects  
 - **Method:** differentiable signal processing + generative models  
