@@ -8,7 +8,7 @@ title: Sungho Lee
 <img src="/assets/css/pic.JPG" alt="Sungho Lee" width="500">
 </p>
 
-<div style="text-align:center;">
+<div align="center" markdown="1">
 Ph.D. Candidate @ [Music and Audio Research Group](https://marg.snu.ac.kr/)  
 Department of Intelligence and Information, Seoul National University  
 Email: sh-lee at snu.ac.kr  
