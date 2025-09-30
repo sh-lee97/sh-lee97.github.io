@@ -151,7 +151,7 @@ Email: sh-lee at snu.ac.kr
 - **Music and AI Lab**, National Taiwan University  
   Oct 7, 2024  
   *Inverse Problems in Audio Post-production.*  
-- **C4DM**, Queen Mary University of London  
+- **Center for Digital Music (C4DM)**, Queen Mary University of London  
   Nov 16, 2023  
   *Deep Learning Meets Audio Processing Graphs.*  
  
