@@ -22,6 +22,4 @@ highlighter: rouge
 no_style_please:
   title: Sungho Lee
   tagline: researcher / audio / ML
-
-no_style_please:
   custom_css: assets/css/custom.css
