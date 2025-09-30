@@ -23,3 +23,5 @@ no_style_please:
   title: Sungho Lee
   tagline: researcher / audio / ML
   custom_css: assets/css/custom.css
+
+include: ["_includes", "_layouts", "_data", "assets"]
