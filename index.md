@@ -33,12 +33,12 @@ title: Sungho Lee
   [demo](https://sh-lee97.github.io/DAR-samples/) · [arXiv](https://arxiv.org/abs/2105.13940)
 
 ### Conferences
-- **Few-step Adversarial Schrödinger Bridge for Generative Speech Enhancement**
+- **Few-step Adversarial Schrödinger Bridge for Generative Speech Enhancement**  
   *Interspeech*, 2025 (Best student paper award nominee)  
   Seungu Han, <ins>Sungho Lee</ins>, Juheon Lee, Kyogu Lee  
   [arXiv](https://arxiv.org/abs/2502.08939)
 
-- **TokenSynth: A Token-based Neural Synthesizer for Instrument Cloning and Text-to-Instrument**
+- **TokenSynth: A Token-based Neural Synthesizer for Instrument Cloning and Text-to-Instrument**  
   *ICASSP*, 2025  
   Kyungsu Kim, Junghyun Koo, <ins>Sungho Lee</ins>, Haesun Jeong, Kyogu Lee  
   [demo](https://kyungsukim.notion.site/A-Token-based-Neural-Synthesizer-for-Instrument-Cloning-and-Text-to-Instrument-2c4f5c0850dc4006971b33ad0e580842?pvs=4) · [arXiv](https://arxiv.org/abs/2502.08939) · [code](https://github.com/KyungsuKim42/tokensynth)
@@ -48,7 +48,7 @@ title: Sungho Lee
   <ins>Sungho Lee</ins>, Marco A. Martínez-Ramírez, Wei-Hsiang Liao, Stefan Uhlich, Giorgio Fabbro, Kyogu Lee, Yuki Mitsufuji  
   [demo](https://sh-lee97.github.io/grafx-prune/) · [arXiv](https://arxiv.org/abs/2406.01049) · [code](https://github.com/sh-lee97/grafx-prune/tree/main)
 
-- **Emosical: An Emotion-Annotated Musical Theatre Dataset**
+- **Emosical: An Emotion-Annotated Musical Theatre Dataset**  
   *EMNLP Findings*, 2024  
   Hayoon Kim, Ahyeon Choi, <ins>Sungho Lee</ins>, Hyunjin Jung, Kyogu Lee  
   [ACL](https://aclanthology.org/2024.findings-emnlp.241/) · [code](https://github.com/gillosae/emosical)
@@ -63,12 +63,12 @@ title: Sungho Lee
   <ins>Sungho Lee</ins>, Jaehyun Park, Seungryeol Paik, Kyogu Lee  
   [demo](https://sh-lee97.github.io/apg/) · [arXiv](https://arxiv.org/abs/2303.08610)
 
-- **Exploiting Time-Frequency Conformers for Music Audio Enhancement**
+- **Exploiting Time-Frequency Conformers for Music Audio Enhancement**  
   *ACM MM*, 2023  
   Yunkee Chae, Junghyun Koo, <ins>Sungho Lee</ins>, Kyogu Lee  
   [summary](https://agreeable-diplodocus-5ca.notion.site/Exploiting-Time-Frequency-Conformers-For-General-Music-Enhancement-1d0f3b851174459294c3de1068eb6ca8) · [arXiv](https://arxiv.org/abs/2308.12599) · [code](https://github.com/yoongi43/music_audio_enhancement_conformer)
 
-- **Global HRTF Interpolation via Learned Affine Transformation of Hyper-Conditioned Features**
+- **Global HRTF Interpolation via Learned Affine Transformation of Hyper-Conditioned Features**  
   *ICASSP*, 2023  
   Jin Woo Lee, <ins>Sungho Lee</ins>, Kyogu Lee  
   [summary](https://cosmic-pillow-86e.notion.site/Global-HRTF-Interpolation-via-Learned-Affine-Transformation-of-Hyper-conditioned-Features-d5a5c7fac8a54b59871b799a2642939f) · [arXiv](https://arxiv.org/abs/2204.02637) · [code](https://github.com/jin-woo-lee/hrtf-interpolation)
@@ -79,18 +79,18 @@ title: Sungho Lee
   <ins>Sungho Lee</ins>, Marco A. Martínez-Ramírez, Wei-Hsiang Liao, Stefan Uhlich, Giorgio Fabbro, Kyogu Lee, Yuki Mitsufuji  
   [arXiv](https://www.arxiv.org/abs/2408.03204) · [code](https://github.com/sh-lee97/grafx) · [docs](https://sh-lee97.github.io/grafx/)
 
-- **Wavespace: A Highly Explorable Wavetable Generator**
+- **Wavespace: A Highly Explorable Wavetable Generator**  
   *ISMIR LBD*, 2024  
   Hazounne Lee, Kihong Kim, <ins>Sungho Lee</ins>, Kyogu Lee  
   [arXiv](https://arxiv.org/abs/2407.19862) · [code (model)](https://github.com/hazounne/wavespace) · [code (VST)](https://github.com/kimgihong2510/WavespaceImplementation)
 
-- **Beat-Aligned Spectrogram-to-Sequence Generation of Rhythm-Game Charts**
+- **Beat-Aligned Spectrogram-to-Sequence Generation of Rhythm-Game Charts**  
   *ISMIR LBD*, 2023  
   Jayeon Yi, <ins>Sungho Lee</ins>, Kyogu Lee  
   [demo](https://stet-stet.github.io/goct/) · [arXiv](https://arxiv.org/abs/2311.13687) · [code](https://github.com/stet-stet/goct_ismir2023)
 
 ### Patents
-- **Multi-modal Guitar Performance Transcription Apparatus and Method**
+- **Multi-modal Guitar Performance Transcription Apparatus and Method**  
   *Domestic patent*, 2025  
   Kyogu Lee, <ins>Sungho Lee</ins>, Chang-Bin Jeon, Jiwon Kim, Jongho Choi, Hayoon Kim, Yong-Ho Kim, Jang-Woo Lee  
   [DOI](https://doi.org/10.8080/1020220190572)
@@ -100,16 +100,16 @@ title: Sungho Lee
   <ins>Sungho Lee</ins>, Matteo Scerbo, Seungu Han, Minjun Choi, Kyogu Lee, Enzo De Sena  
   [arXiv](https://arxiv.org/abs/2509.15946)
 
-- **LipCoder: Voice-Enabled Coding Toolkit**
+- **LipCoder: Voice-Enabled Coding Toolkit**  
   Hayoon Kim, <ins>Sungho Lee</ins>, Juwhi Kim, Bongwon Suh, Kyogu Lee
 
-- **Rethinking Speech Representation Aggregation for Speech Enhancement with a Phonetic Mutual Information Perspective**
+- **Rethinking Speech Representation Aggregation for Speech Enhancement with a Phonetic Mutual Information Perspective**  
   Seungu Han, <ins>Sungho Lee</ins>, Kyogu Lee
 
-- **UNISE: Unified Noise-Invariant Learning for Speech Enhancement toward Improved Content Preservation**
+- **UNISE: Unified Noise-Invariant Learning for Speech Enhancement toward Improved Content Preservation**  
   Seungu Han, <ins>Sungho Lee</ins>, Eungbum Kim, Seaone Ok, Kyogu Lee
 
-- **Solving Blind Non-linear Forward and Inverse Problems for Audio Applications**
+- **Solving Blind Non-linear Forward and Inverse Problems for Audio Applications**  
   Jaehyun Park, <ins>Sungho Lee</ins>, Hayoon Kim, Kyogu Lee
 
 
