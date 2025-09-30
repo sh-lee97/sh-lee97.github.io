@@ -1,5 +1,5 @@
-.main {
-  max-width: 900px; /* or whatever you prefer */
+.w {
+  max-width: 800px !important; /* or whatever you prefer */
 }
 
 .highlight {
