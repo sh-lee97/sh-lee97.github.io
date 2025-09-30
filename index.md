@@ -129,16 +129,31 @@ title: Sungho Lee
   Impulse response estimation for audio post-production. Product: Supertone Air ([page](https://www.supertone.ai/air))
 
 **Funded projects**
-- **Supertone** — Research project lead, 2024 · *Studio-quality speech enhancement*  
-- **MCST (KR Gov.)** — Applicant, 2022–2023 · *Musical signal processing*  
-- **IITP (KR Gov.)** — Applicant, 2021–2023 · *SED/DOA; room acoustics analysis*  
-- **Stra** — Research project lead, 2022 · *Real-time audiovisual guitar tablature*
+- **Supertone**
+  *Studio-quality speech enhancement*  
+  Research project lead, 2024
+- **MCST (KR Gov.)**
+  *Musical signal processing*
+  Applicant, 2022–2023 
+- **IITP (KR Gov.)**
+  *SED/DOA; room acoustics analysis*
+  Applicant, 2021–2023  
+- **Stra**
+  *Real-time audiovisual guitar tablature*
+  Research project lead, 2022
 
 **Invited talks**
-- Music and AI Lab, **National Taiwan University** — *Oct 7, 2024*  
+- **Music and AI Lab**, National Taiwan University
   *Inverse Problems in Audio Post-production.*
-- C4DM, **Queen Mary University of London** — *Nov 16, 2023*  
+  Oct 7, 2024
+- **C4DM**, Queen Mary University of London
   *Deep Learning Meets Audio Processing Graphs.*
+  Nov 16, 2023
 
 **Reviews**
-- IEEE/ACM TASLP, EURASIP JASM, JAES, IEEE ICASSP, IEEE WASPAA, IEEE IJCNN
+- IEEE/ACM TASLP
+- EURASIP JASM
+- JAES
+- IEEE ICASSP
+- IEEE WASPAA
+- IEEE IJCNN
