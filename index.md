@@ -1,9 +1,10 @@
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-
 ---
 layout: home
 title: Sungho Lee
 ---
+
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
 
 - Ph.D. candidate, Seoul National University
 - Email: [sh-lee@snu.ac.kr](mailto:sh-lee@snu.ac.kr)
