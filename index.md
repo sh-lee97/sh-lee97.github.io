@@ -5,6 +5,7 @@ title: Sungho Lee
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
+## Personal info
 
 - Ph.D. Candidate @ [Music and Audio Research Group](https://marg.snu.ac.kr/)
 - Department of Intelligence and Information, Seoul National University
