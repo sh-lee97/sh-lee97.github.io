@@ -129,7 +129,7 @@ Email: sh-lee at snu.ac.kr
   Product: [**Supertone Air**](https://www.supertone.ai/air)
 
 <p align="center">
-<img src="/air.jpeg" alt="Supertone Air" width="500">
+<img src="/air.jpeg" alt="Supertone Air" width="700">
 </p>
 
 
