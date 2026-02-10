@@ -4,7 +4,6 @@ title: Sungho Lee
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-<script>document.body.classList.add('selected-only');</script>
 
 <p align="center">
 <img src="/pic.JPG" alt="Sungho Lee" class="profile-photo">
@@ -36,7 +35,7 @@ Seoul National University
 
 <div class="pub-header">
 <h2>Publications</h2>
-<span class="pub-toggle" onclick="document.body.classList.toggle('selected-only'); this.textContent = document.body.classList.contains('selected-only') ? 'show all' : 'selected';">show all</span>
+<span class="pub-toggle" id="pub-toggle">show all</span>
 </div>
 
 ### Journals
@@ -194,3 +193,11 @@ Seoul National University
 
 <p class="exp-category">Reviews</p>
 <p class="reviews-inline">IEEE/ACM TASLP · EURASIP JASM · JAES · IEEE ICASSP · IEEE WASPAA · IEEE IJCNN</p>
+
+<script>
+document.body.classList.add('selected-only');
+document.getElementById('pub-toggle').addEventListener('click', function() {
+  document.body.classList.toggle('selected-only');
+  this.textContent = document.body.classList.contains('selected-only') ? 'show all' : 'selected';
+});
+</script>
