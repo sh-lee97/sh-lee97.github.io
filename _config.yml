@@ -1,27 +1,7 @@
 title: Sungho Lee
-description: minimal site
+description: Sungho Lee - Ph.D. Candidate, Seoul National University. Research on inverse problems for audio, differentiable signal processing, and generative models.
 url: https://sh-lee97.github.io
 baseurl: ""
 
-# GitHub Pages compatible settings
-remote_theme: riggraz/no-style-please
-
-theme_config:
-  appearance: "light" # can be "light", "dark" or "auto"
-  
 plugins:
-  - jekyll-remote-theme
-  - jekyll-feed
   - jekyll-seo-tag
-
-# Build settings
-markdown: kramdown
-highlighter: rouge
-
-# Minimal theme config (optional)
-no_style_please:
-  title: Sungho Lee
-  tagline: researcher / audio / ML
-  custom_css: assets/css/custom.css
-
-include: ["_includes", "_layouts", "_data", "assets"]

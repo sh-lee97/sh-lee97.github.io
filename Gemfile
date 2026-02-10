@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-gem "github-pages", group: :jekyll_plugins
-gem "csv"
-gem "base64"
-gem "bigdecimal"
+gem "jekyll", "~> 3.10"
+gem "jekyll-seo-tag"
+gem "kramdown-parser-gfm"
