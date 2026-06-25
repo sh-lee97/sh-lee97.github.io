@@ -3,37 +3,28 @@ layout: default
 title: Sungho Lee
 ---
 
-<img src="/pic.JPG" alt="Sungho Lee" class="profile-photo">
-
 <div class="intro">
-  <span class="name">Sungho Lee</span>
-  <span class="affiliation">
-    Ph.D. Candidate &middot; <a href="https://marg.snu.ac.kr/">Music and Audio Research Group</a><br>
-    Seoul National University
-  </span>
-  <br>
-  <span class="affiliation">sh-lee at snu.ac.kr</span>
-  <div class="links">
-    <a href="https://scholar.google.com/citations?hl=en&user=8yMXL5AAAAAJ&view_op=list_works">Scholar</a> &middot;
-    <a href="https://github.com/sh-lee97">GitHub</a> &middot;
-    <a href="https://www.linkedin.com/in/sungho-lee-061546219/">LinkedIn</a> &middot;
-    <a href="/cv-260411.pdf">CV</a>
+  <div class="namebar">
+    <span class="name">Sungho Lee</span>
+    <span class="barlinks">sh-lee at snu.ac.kr &middot;
+      <a href="https://scholar.google.com/citations?hl=en&user=8yMXL5AAAAAJ&view_op=list_works">scholar</a> &middot;
+      <a href="https://github.com/sh-lee97">github</a> &middot;
+      <a href="https://www.linkedin.com/in/sungho-lee-061546219/">linkedin</a> &middot;
+      <a href="/cv-260411.pdf">cv</a></span>
   </div>
+  <p class="bio">Hi! I'm a Ph.D. candidate at the <a href="https://marg.snu.ac.kr/">Music and Audio Research Group</a>, Seoul National University. I work on inverse problems for audio in the domain of room acoustics and audio effects, with applications in post-production.</p>
 </div>
 
-<div class="interests">
-  <ul>
-    <li><strong>Topic:</strong> inverse problems for audio</li>
-    <li><strong>Domain:</strong> room acoustics and audio effects</li>
-    <li><strong>Method:</strong> differentiable signal processing + generative models</li>
-    <li><strong>Application:</strong> audio post-production</li>
-  </ul>
-</div>
-
-<div class="pub-header">
+<section class="block mode-hide" id="pub-block">
+<div class="block-head">
   <h2>Publications</h2>
-  <span class="pub-toggle" id="pub-toggle">show all</span>
+  <span class="segs">
+    <span class="seg active" data-mode="hide">hide</span>
+    <span class="seg" data-mode="selected">first-authored</span>
+    <span class="seg" data-mode="all">all</span>
+  </span>
 </div>
+<div class="block-body">
 
 <h3>Journals</h3>
 
@@ -62,7 +53,7 @@ title: Sungho Lee
 
 <ul class="pub-list">
   <li>
-    <span class="pub-title">Rethinking Speech Representation Aggregation for Speech Enhancement with a Phonetic Mutual Information Perspective</span><br>
+    <span class="pub-title">Rethinking Speech Representation Aggregation in Speech Enhancement: A Phonetic Mutual Information Perspective</span><br>
     <span class="pub-authors">Seungu Han, <ins>Sungho Lee</ins>, Kyogu Lee</span><br>
     <span class="pub-venue">ICASSP, 2026</span><br>
     <span class="pub-links"><a href="https://arxiv.org/abs/2601.22480">arXiv</a></span>
@@ -144,18 +135,40 @@ title: Sungho Lee
 <h3>Preprints / under review</h3>
 
 <ul class="pub-list">
+  <li class="key">
+    <span class="pub-title">Exploring the Design Space of Representation Learning for Audio Transformations</span><br>
+    <span class="pub-authors"><ins>Sungho Lee</ins>, Marco A. Mart&iacute;nez-Ram&iacute;rez, Junghyun Koo, Wei-Hsiang Liao, Kyogu Lee, Yuki Mitsufuji</span>
+  </li>
   <li>
-    <span class="pub-title">UNISE: Unified Noise-Invariant Learning for Speech Enhancement toward Improved Content Preservation</span><br>
+    <span class="pub-title">UNISE: Speech Enhancement via Noise-Invariant Learning for Improved Content Preservation</span><br>
     <span class="pub-authors">Seungu Han, <ins>Sungho Lee</ins>, Eungbum Kim, Seaone Ok, Kyogu Lee</span>
   </li>
   <li>
-    <span class="pub-title">Solving Blind Non-linear Forward and Inverse Problems for Audio Applications</span><br>
+    <span class="pub-title">Actionable Pronunciation Feedback via Disentangled Speech Representations</span><br>
+    <span class="pub-authors">Hayoon Kim, <ins>Sungho Lee</ins>, Kyogu Lee</span>
+  </li>
+  <li>
+    <span class="pub-title">LipCoder: Voice-Enabled Coding Toolkit</span><br>
+    <span class="pub-authors">Hayoon Kim, <ins>Sungho Lee</ins>, Juwhi Kim, Bongwon Suh, Kyogu Lee</span>
+  </li>
+  <li>
+    <span class="pub-title">Solving Blind Non-linear Forward and Inverse Problem for Audio Applications</span><br>
     <span class="pub-authors">Jaehyun Park, <ins>Sungho Lee</ins>, Hayoon Kim, Kyogu Lee</span>
   </li>
 </ul>
 </div>
+</div>
+</section>
 
-<h2>Experiences</h2>
+<section class="block mode-hide" id="exp-block">
+<div class="block-head">
+  <h2>Experiences</h2>
+  <span class="segs">
+    <span class="seg active" data-mode="hide">hide</span>
+    <span class="seg" data-mode="show">show</span>
+  </span>
+</div>
+<div class="block-body">
 
 <p class="exp-category">Industry</p>
 <ul class="exp-list">
@@ -166,8 +179,13 @@ title: Sungho Lee
   </li>
   <li>
     <strong>Sony AI</strong><br>
-    <span class="exp-role">Research intern, Summer 2023 &amp; Spring 2026</span><br>
-    <span class="exp-desc">Differentiable signal processing and representation learning.</span>
+    <span class="exp-role">Research intern, Spring 2026</span><br>
+    <span class="exp-desc">Representation learning for audio transformations.</span>
+  </li>
+  <li>
+    <strong>Sony AI</strong><br>
+    <span class="exp-role">Research intern, Summer 2023</span><br>
+    <span class="exp-desc">Differentiable signal processing for music mixing.</span>
   </li>
   <li>
     <strong>Supertone</strong><br>
@@ -179,6 +197,11 @@ title: Sungho Lee
 
 <p class="exp-category">Invited talks</p>
 <ul class="exp-list">
+  <li>
+    <strong>Institute of Sound Recording (IoSR)</strong>, University of Surrey<br>
+    <span class="exp-role">Aug 3, 2026</span><br>
+    <span class="exp-desc">Solving Inverse Problems of Audio Systems with Differentiable Processing and Generative Modeling.</span>
+  </li>
   <li>
     <strong>Music and AI Lab</strong>, National Taiwan University<br>
     <span class="exp-role">Oct 7, 2024</span><br>
@@ -192,11 +215,18 @@ title: Sungho Lee
 </ul>
 
 <p class="exp-category">Reviews</p>
-<p class="reviews-inline">IEEE/ACM TASLP &middot; EURASIP JASM &middot; JAES &middot; IEEE ICASSP &middot; IEEE WASPAA &middot; IEEE IJCNN &middot; DAFx &middot; ISCA Interspeech &middot; IEEE SLT</p>
+<p class="reviews-inline">IEEE TASLPRO &middot; EURASIP JASM &middot; JAES &middot; IEEE ICASSP &middot; IEEE WASPAA &middot; IEEE IJCNN &middot; DAFx &middot; ISMIR &middot; ISCA Interspeech &middot; IEEE SLT &middot; KSMI</p>
+</div>
+</section>
 
 <script>
-document.getElementById('pub-toggle').addEventListener('click', function() {
-  document.body.classList.toggle('selected-only');
-  this.textContent = document.body.classList.contains('selected-only') ? 'show all' : 'selected';
+document.querySelectorAll('.block').forEach(function (block) {
+  block.querySelectorAll('.seg').forEach(function (seg) {
+    seg.addEventListener('click', function () {
+      block.querySelectorAll('.seg').forEach(function (s) { s.classList.remove('active'); });
+      seg.classList.add('active');
+      block.className = 'block mode-' + seg.dataset.mode;
+    });
+  });
 });
 </script>

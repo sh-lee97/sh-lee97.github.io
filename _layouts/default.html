@@ -5,129 +5,131 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     /* ── Reset ── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-    /* ── Base ── */
+    /* ── Base: monospace, dry, terminal-ish ── */
+    :root {
+      --fg: #1a1a1a;
+      --dim: #666;
+      --faint: #999;
+      --rule: #ddd;
+      --bg: #fdfdfc;
+      --link: #0a3069;
+    }
     body {
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      line-height: 1.68;
-      color: #2c2c2c;
-      background: #f9f9f9;
+      font-family: "IBM Plex Mono", "SFMono-Regular", "SF Mono", "Menlo",
+                   "Consolas", "DejaVu Sans Mono", monospace;
+      font-size: 13px;
+      line-height: 1.5;
+      color: var(--fg);
+      background: var(--bg);
     }
     .container {
-      max-width: 750px;
+      max-width: 720px;
       margin: 0 auto;
-      padding: 2rem 1.5rem;
+      padding: 2rem 1.5rem 3rem;
     }
 
     /* ── Typography ── */
     h2 {
-      margin-top: 2.2rem;
-      margin-bottom: 0.4rem;
-      letter-spacing: -0.01em;
+      margin-top: 1.9rem;
+      margin-bottom: 0.45rem;
+      font-size: 1.0rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid var(--rule);
     }
     h3 {
-      margin-top: 1.6rem;
-      margin-bottom: 0.5rem;
-      font-size: 1.02rem;
-      letter-spacing: -0.01em;
+      margin-top: 1.3rem;
+      margin-bottom: 0.55rem;
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: var(--dim);
     }
+    h3::before { content: "# "; color: var(--faint); }
 
     /* ── Links ── */
     a {
-      color: inherit;
-      text-decoration-color: rgba(0, 0, 0, 0.2);
-      text-underline-offset: 2px;
-      transition: text-decoration-color 0.2s;
+      color: var(--link);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
     }
     a:hover {
-      text-decoration-color: currentColor;
-    }
-
-    /* ── Profile photo ── */
-    .profile-photo {
-      border-radius: 6px;
-      max-width: 220px;
-      width: 100%;
-      height: auto;
-      display: block;
-      margin: 0 auto 1rem;
+      border-bottom-color: var(--link);
     }
 
     /* ── Intro block ── */
     .intro {
-      text-align: center;
-      margin-bottom: 1.5rem;
-      line-height: 1.8;
+      margin-bottom: 1.8rem;
+      line-height: 1.7;
+    }
+    .intro .namebar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.35rem 0.8rem;
+      border-bottom: 1px solid var(--rule);
+      padding-bottom: 0.4rem;
     }
     .intro .name {
-      font-size: 1.35rem;
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      display: block;
-      margin-bottom: 0.25rem;
+      font-size: 1.5rem;
+      font-weight: 600;
+      flex: 1 0 auto;
+      white-space: nowrap;
     }
-    .intro .affiliation {
-      font-size: 0.93rem;
-      color: #555;
+    .intro .barlinks {
+      font-size: 0.84rem;
+      color: var(--dim);
+      white-space: nowrap;
     }
-    .intro .links {
-      margin-top: 0.4rem;
-      font-size: 0.93rem;
+    .intro .bio {
+      font-size: 0.85rem;
+      margin-top: 0.7rem;
     }
-    .intro .links a {
-      margin: 0 0.25rem;
-    }
-
-    /* ── Research interests ── */
-    .interests {
-      margin: 1.2rem 0;
-      padding: 0.8rem 1rem;
-      background: #f2f2f2;
-      border-radius: 5px;
-      font-size: 0.95rem;
-    }
-    .interests ul {
-      margin: 0;
-      padding-left: 1.2rem;
-    }
-    .interests li {
-      margin-bottom: 0.15rem;
+    @media (max-width: 560px) {
+      .intro .barlinks { white-space: normal; }
     }
 
-    /* ── Publication header + toggle ── */
-    .pub-header {
+    /* ── Collapsible section header + segmented control ── */
+    .block-head {
       display: flex;
       align-items: baseline;
       gap: 0.6rem;
-      margin-top: 2.2rem;
-      margin-bottom: 0.4rem;
+      margin-top: 1.9rem;
     }
-    .pub-header h2 {
+    .block-head h2 {
       margin: 0;
+      flex: 1;
     }
-    .pub-toggle {
-      font-size: 0.8rem;
-      color: #888;
+    .segs {
+      font-size: 0.84rem;
+      color: var(--faint);
+      white-space: nowrap;
+    }
+    .seg {
+      margin-left: 0.4rem;
       cursor: pointer;
-      border-bottom: 1px dashed #bbb;
       user-select: none;
-      transition: color 0.2s;
     }
-    .pub-toggle:hover {
-      color: #444;
-    }
+    .seg::before { content: "["; }
+    .seg::after  { content: "]"; }
+    .seg:hover { color: var(--fg); }
+    .seg.active { color: var(--fg); font-weight: 600; }
 
-    /* ── Selected-only filter ── */
-    body.selected-only .pub-list > li:not(.key) {
-      display: none;
+    /* ── Collapse / filter states ── */
+    .block-body {
+      margin-top: 0.6rem;
     }
-    body.selected-only .pub-section-extra {
-      display: none;
-    }
+    .block.mode-hide .block-body { display: none; }
+    .block.mode-selected .pub-list > li:not(.key) { display: none; }
+    .block.mode-selected .pub-section-extra { display: none; }
 
     /* ── Publication list ── */
     .pub-list {
@@ -135,86 +137,98 @@
       padding-left: 0;
     }
     .pub-list > li {
-      margin-bottom: 0.95rem;
-      padding-left: 0.75rem;
-      border-left: 2px solid transparent;
-      line-height: 1.6;
+      margin-bottom: 0.8rem;
+      padding-left: 1.1rem;
+      line-height: 1.5;
+      position: relative;
     }
-    .pub-list > li.key {
-      border-left-color: #f0d94e;
+    .pub-list > li::before {
+      content: "-";
+      position: absolute;
+      left: 0;
+      color: var(--faint);
+    }
+    .pub-list > li.key::before {
+      content: "*";
+      color: var(--fg);
     }
     .pub-title {
+      font-size: 1em;
       font-weight: 600;
     }
     .pub-authors {
-      font-size: 0.91rem;
-      color: #444;
+      font-size: 0.85em;
+      color: var(--dim);
+    }
+    .pub-authors ins {
+      text-decoration: none;
+      border-bottom: 1px solid var(--faint);
     }
     .pub-venue {
-      font-size: 0.9rem;
-      color: #666;
-      font-style: italic;
+      font-size: 0.83em;
+      color: var(--faint);
     }
+    .pub-venue::before { content: "@ "; }
     .pub-links {
-      font-size: 0.87rem;
-      margin-top: 0.15rem;
+      font-size: 0.83em;
+      margin-top: 0.1rem;
     }
-    .pub-links a {
-      margin-right: 0.15rem;
-    }
+    .pub-links a { margin-right: 0.3rem; }
 
     /* ── Experience section ── */
     .exp-category {
-      font-weight: bold;
-      margin-top: 1.6rem;
-      margin-bottom: 0.3rem;
-      font-size: 1.02rem;
-      letter-spacing: -0.01em;
+      font-weight: 600;
+      margin-top: 1.2rem;
+      margin-bottom: 0.4rem;
+      font-size: 0.86rem;
+      color: var(--dim);
     }
+    .exp-category::before { content: "# "; color: var(--faint); }
     .exp-list {
       list-style: none;
       padding-left: 0;
     }
     .exp-list li {
-      margin-bottom: 0.8rem;
-      padding-left: 0.75rem;
-      border-left: 2px solid transparent;
-      line-height: 1.6;
+      margin-bottom: 0.55rem;
+      padding-left: 1.1rem;
+      line-height: 1.55;
+      position: relative;
+    }
+    .exp-list li::before {
+      content: "-";
+      position: absolute;
+      left: 0;
+      color: var(--faint);
     }
     .exp-list li strong {
       font-weight: 600;
     }
     .exp-role {
-      font-size: 0.9rem;
-      color: #666;
+      font-size: 0.9em;
+      color: var(--dim);
     }
     .exp-desc {
-      font-size: 0.9rem;
-      color: #666;
-      font-style: italic;
+      font-size: 0.9em;
+      color: var(--faint);
     }
 
     /* ── Reviews ── */
     .reviews-inline {
-      font-size: 0.93rem;
-      color: #555;
-      padding-left: 0.75rem;
-      border-left: 2px solid transparent;
+      font-size: 0.9em;
+      color: var(--dim);
     }
 
     /* ── Responsive ── */
     @media (max-width: 600px) {
+      body { font-size: 12px; }
       .container {
-        padding: 1.2rem 1rem;
-      }
-      .profile-photo {
-        max-width: 160px;
+        padding: 1.5rem 1rem 3rem;
       }
     }
   </style>
   {% seo %}
 </head>
-<body class="selected-only">
+<body>
   <div class="container">
     {{ content }}
   </div>
