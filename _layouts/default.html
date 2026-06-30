@@ -43,8 +43,6 @@
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.08em;
-      padding-bottom: 0.3rem;
-      border-bottom: 1px solid var(--rule);
     }
     h3 {
       margin-top: 1.3rem;
@@ -100,15 +98,19 @@
     /* ── Collapsible section header + segmented control ── */
     .block-head {
       display: flex;
+      flex-wrap: wrap;
       align-items: baseline;
-      gap: 0.6rem;
+      gap: 0.25rem 0.6rem;
       margin-top: 1.9rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid var(--rule);
     }
     .block-head h2 {
       margin: 0;
       flex: 1;
     }
     .segs {
+      margin-left: auto;
       font-size: 0.84rem;
       color: var(--faint);
       white-space: nowrap;
