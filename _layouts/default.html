@@ -24,7 +24,7 @@
     body {
       font-family: "IBM Plex Mono", "SFMono-Regular", "SF Mono", "Menlo",
                    "Consolas", "DejaVu Sans Mono", monospace;
-      font-size: 13.5px;
+      font-size: 15.5px;
       line-height: 1.5;
       color: var(--fg);
       background: var(--bg);
@@ -39,10 +39,11 @@
     h2 {
       margin-top: 1.9rem;
       margin-bottom: 0.45rem;
-      font-size: 1.0rem;
-      font-weight: 600;
+      font-size: 0.95rem;
+      font-weight: 500;
+      color: var(--dim);
       text-transform: uppercase;
-      letter-spacing: 0.08em;
+      letter-spacing: 0.1em;
     }
     h3 {
       margin-top: 1.3rem;
@@ -83,55 +84,50 @@
       white-space: nowrap;
     }
     .intro .barlinks {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.15rem 1rem;
       font-size: 0.84rem;
       color: var(--dim);
       white-space: nowrap;
     }
     .intro .bio {
-      font-size: 0.85rem;
+      font-size: 0.85em;
       margin-top: 0.7rem;
     }
     @media (max-width: 560px) {
       .intro .barlinks { white-space: normal; }
     }
 
-    /* ── Collapsible section header + segmented control ── */
-    .block-head {
+    /* ── Sections ── */
+    .block h2 {
+      margin-top: 2.4rem;
+      margin-bottom: 0.8rem;
+    }
+
+    /* ── Updates ── */
+    .news-list {
+      list-style: none;
+      padding-left: 0;
+    }
+    .news-list li {
       display: flex;
       flex-wrap: wrap;
-      align-items: baseline;
-      gap: 0.25rem 0.6rem;
-      margin-top: 1.9rem;
-      padding-bottom: 0.3rem;
-      border-bottom: 1px solid var(--rule);
+      gap: 0 0.9rem;
+      margin-bottom: 0.55rem;
+      line-height: 1.5;
     }
-    .block-head h2 {
-      margin: 0;
-      flex: 1;
-    }
-    .segs {
-      margin-left: auto;
-      font-size: 0.84rem;
+    .news-date {
+      flex: 0 0 4.5rem;
+      font-size: 0.85em;
       color: var(--faint);
       white-space: nowrap;
     }
-    .seg {
-      margin-left: 0.4rem;
-      cursor: pointer;
-      user-select: none;
+    .news-body {
+      flex: 1;
+      min-width: 0;
+      font-size: 0.85em;
     }
-    .seg::before { content: "["; }
-    .seg::after  { content: "]"; }
-    .seg:hover { color: var(--fg); }
-    .seg.active { color: var(--fg); font-weight: 600; }
-
-    /* ── Collapse / filter states ── */
-    .block-body {
-      margin-top: 0.6rem;
-    }
-    .block.mode-hide .block-body { display: none; }
-    .block.mode-selected .pub-list > li:not(.key) { display: none; }
-    .block.mode-selected .pub-section-extra { display: none; }
 
     /* ── Publication list ── */
     .pub-list {
@@ -139,99 +135,43 @@
       padding-left: 0;
     }
     .pub-list > li {
-      margin-bottom: 0.8rem;
-      padding-left: 1.1rem;
+      margin-bottom: 0.95rem;
       line-height: 1.5;
-      position: relative;
-    }
-    .pub-list > li::before {
-      content: "-";
-      position: absolute;
-      left: 0;
-      color: var(--faint);
-    }
-    .pub-list > li.key::before {
-      content: "*";
-      color: var(--fg);
     }
     .pub-title {
-      font-size: 1em;
-      font-weight: 600;
+      font-size: 0.85em;
     }
     .pub-authors {
       font-size: 0.85em;
       color: var(--dim);
     }
     .pub-authors .au { white-space: nowrap; }
-    .pub-authors ins {
-      text-decoration: none;
-      border-bottom: 1px solid var(--faint);
-    }
     .pub-meta {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       align-items: baseline;
-      gap: 0.2rem 1rem;
+      gap: 0 1rem;
     }
     .pub-venue {
       font-size: 0.85em;
       color: var(--faint);
     }
     .pub-links {
+      display: flex;
+      gap: 1rem;
       font-size: 0.85em;
       white-space: nowrap;
     }
 
-    /* ── Experience section ── */
-    .exp-category {
-      font-weight: 600;
-      margin-top: 1.3rem;
-      margin-bottom: 0.55rem;
-      font-size: 0.92rem;
-      color: var(--dim);
-    }
-    .exp-category::before { content: "# "; color: var(--faint); }
-    .exp-list {
-      list-style: none;
-      padding-left: 0;
-    }
-    .exp-list li {
-      margin-bottom: 0.8rem;
-      padding-left: 1.1rem;
-      line-height: 1.5;
-      position: relative;
-    }
-    .exp-list li::before {
-      content: "-";
-      position: absolute;
-      left: 0;
-      color: var(--faint);
-    }
-    .exp-list li strong {
-      font-weight: 600;
-    }
-    .exp-role {
-      font-size: 0.85em;
-      color: var(--dim);
-    }
-    .exp-desc {
-      font-size: 0.85em;
-      color: var(--faint);
-    }
-
-    /* ── Reviews ── */
-    .reviews-inline {
-      font-size: 0.85em;
-      color: var(--dim);
-    }
 
     /* ── Responsive ── */
     @media (max-width: 600px) {
-      body { font-size: 12.5px; }
+      body { font-size: 14px; }
       .container {
         padding: 1.5rem 1rem 3rem;
       }
+      .news-date { flex-basis: 100%; }
     }
   </style>
   {% seo %}
